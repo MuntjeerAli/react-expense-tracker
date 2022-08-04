@@ -99,7 +99,7 @@ h2{
 
 .transaction li span{
     display: inline-block;
-    color: white;
+    color: black;
     padding: 5px;
     border-radius: 3px;
 }
@@ -149,15 +149,16 @@ h2{
 }
 
 .btn-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 
-#incomeBtn{
-    background-color: var(--income);
+.transactionBtn{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    font-size: 0.5rem;
+    cursor: pointer;
 }
 
-#expenseBtn{
-    background-color: var(--expense);
-}
